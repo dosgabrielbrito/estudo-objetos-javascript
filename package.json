@@ -1,0 +1,23 @@
+{
+  "name": "estudo-objetos-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "User.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dosgabrielbrito/estudo-objetos-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dosgabrielbrito/estudo-objetos-javascript/issues"
+  },
+  "homepage": "https://github.com/dosgabrielbrito/estudo-objetos-javascript#readme"
+}
