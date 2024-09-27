@@ -6,11 +6,11 @@ export default class User {
   #ativo;
 
   constructor(nome, email, nascimento, role, ativo = true) {
-    (this.#nome = nome),
-      (this.#email = email),
-      (this.#nascimento = nascimento),
-      (this.#role = role || 'estudante'),
-      (this.#ativo = ativo);
+    this.#nome = nome;
+    this.#email = email;
+    this.#nascimento = nascimento;
+    this.#role = role || 'estudante';
+    this.#ativo = ativo;
   }
 
   get nome() {
@@ -36,10 +36,6 @@ export default class User {
   set nome(novoNome) {
     this.#nome = novoNome;
   }
-
-  //   exibirInfos() {
-  //     return `${this.nome}, ${this.email}`;
-  //   }
 
   exibirInfos() {
     if (this.role === 'estudante') {
